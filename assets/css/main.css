@@ -1,0 +1,78 @@
+@font-face {
+  font-family: dm;
+  src: url('../fonts/dm_sans_regular.ttf');
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --containerSize: 80%;
+  --marginSide: 10%;
+  --backgroundColor: #e6e6e6;
+  --textColor: #1a1a1a;
+  --textColorGrey: #4c4c4c;
+  --red: #CD0028;
+  --blue: #0180FF;
+  --transition: 0.25s ease-in-out;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: dm;
+  overflow-x: hidden;
+  color: var(--textColor);
+}
+
+a {
+  text-decoration: none;
+  color: var(--textColor);
+}
+
+ul, ol {
+  list-style: none;
+}
+
+.container {
+  width: var(--containerSize);
+  margin: 0 auto;
+}
+
+/* Begin Header */
+header {
+  padding: 0.25rem 0;
+}
+  header .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+    header .column {
+      width: 50%;
+    }
+      header .column img{
+        width: 10rem;
+      }
+      header .column .menu {
+        display: flex;
+        justify-content: right;
+        align-items: flex-start;
+      }
+        header .menu .menu-item {
+          padding: 0 1rem;
+        }
+
+          header .menu-item a {
+            display: flex;
+            flex-direction: column;
+            color: var(--textColorGrey);
+            transition: var(--transition);
+          }
+          header .menu-item a:hover {
+            color: var(--textColor);
+            font-weight: bold;
+          }
+
+
