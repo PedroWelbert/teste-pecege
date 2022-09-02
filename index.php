@@ -5,6 +5,7 @@
   <?php require_once('elements/header.php'); ?>
   <main>
     <?php require_once('parts/home.php'); ?>
+    <?php require_once('parts/who_uses.php'); ?>
   </main>
 </body>
 </html>
