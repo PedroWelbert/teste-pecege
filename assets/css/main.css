@@ -13,6 +13,7 @@ html {
   --backgroundColor: #e6e6e6;
   --textColor: #1a1a1a;
   --textColorGrey: #4c4c4c;
+  --lightGrey: #d4d4d4;
   --red: #CD0028;
   --blue: #0180FF;
   --transition: 0.25s ease-in-out;
@@ -43,6 +44,7 @@ ul, ol {
 /* Begin Header */
 header {
   padding: 0.25rem 0;
+  border-bottom: 1px solid var(--lightGrey);
 }
   header .row {
     display: flex;
@@ -74,5 +76,104 @@ header {
             color: var(--textColor);
             font-weight: bold;
           }
+            header .menu-item a span:nth-child(1) {
+              font-size: 70%;
+            }
+/* End Header */
 
+/* Begin Home */
+#home {
+  background-image: url('../img/banner.png');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
+  #home .one {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+    #home .one .column {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 45%;
+    }
+      #home .one .column h1 {
+        font-size: 250%;
+        text-align: center;
+        color: var(--backgroundColor);
+      }
+      #home .one .column a {
+        color: var(--backgroundColor);
+        border: 1px solid var(--backgroundColor);
+        padding: .5rem 2rem;
+        font-size: 90%;
+        transition: var(--transition);
+      }
+      #home .one .column a:hover {
+        color: var(--textColor);
+        background-color: var(--backgroundColor);
+      }
 
+  #home .two {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 5rem 0;
+  }
+    #home .two .column {
+      width: 40%;
+      position: relative;
+    }
+      #home .two .column span {
+        font-size: 80%;
+      }
+      #home .two .column h2 {
+        font-size: 250%;
+        margin: 0;
+      }
+        #home .two .info {
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-start;
+        }
+          #home .info .description {
+            width: 70%;
+          }
+            #home .description a {
+              display: flex;
+              align-items: center;
+
+            }
+              #home .description a span {
+                font-size: 100%;
+                font-weight: bold;
+                padding-right: .5rem;
+              }
+              #home .description a svg {
+                fill: var(--textColor);
+                transition: var(--transition);
+              }
+              #home .description a:hover svg {
+                fill: var(--red);
+                position: relative;
+                left: 5%;
+              }
+              #home .description a:hover span {
+                color: var(--red);
+              }
+        #home .two figure {
+          position: relative;
+
+        }
+          #home figure img {
+            position: absolute;
+            top: -30rem;
+            width: 100%;
+          }
+/* End Home */
