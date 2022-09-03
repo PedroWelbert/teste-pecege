@@ -251,7 +251,7 @@ header {
       border-style: none none dashed dashed;
       width: 59%;
       position: absolute;
-      height: 30vh;
+      height: 40vh;
       bottom: 3rem;
       left: 3rem;
       border-radius: 0 0 0 5rem;
@@ -306,9 +306,6 @@ header {
           #highlight .one figure img {
             width: 100%;
           }
-      
-      
-
 /* End Highlight */
 
 /* Begin Contact */
@@ -316,4 +313,59 @@ header {
   margin: 1rem 0;
   padding: 2rem 0;
 }
+#contact .two {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding: 5rem 0;
+}
+  #contact .two .column {
+    width: 40%;
+  }
+    #contact .two .column span {
+      font-size: 80%;
+    }
+    #contact .two .column h2 {
+      font-size: 250%;
+      margin: 0;
+    }
+      #contact .two .info {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+      }
+        #contact .info .description {
+          width: 70%;
+        }
+          #contact .description a {
+            display: flex;
+            align-items: center;
+
+          }
+            #contact .description a span {
+              font-size: 100%;
+              font-weight: bold;
+              padding-right: .5rem;
+            }
+            #contact .description a svg {
+              fill: var(--textColor);
+              transition: var(--transition);
+            }
+            #contact .description a:hover svg {
+              fill: var(--red);
+              position: relative;
+              left: 5%;
+            }
+            #contact .description a:hover span {
+              color: var(--red);
+            }
+      #contact .two figure {
+        position: relative;
+        z-index: 3;
+      }
+        #contact figure img {
+          position: absolute;
+          top: -18rem;
+          width: 100%;
+        }
 /* End Highlight */
