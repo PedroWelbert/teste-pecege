@@ -13,7 +13,7 @@
       </a>
     </li>
     <li class="menu-item">
-      <a href="#highlights">
+      <a href="#highlight">
         <span>03.</span>
         <span>Diferenciais</span>
       </a>

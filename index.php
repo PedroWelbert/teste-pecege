@@ -6,6 +6,8 @@
   <main>
     <?php require_once('parts/home.php'); ?>
     <?php require_once('parts/who_uses.php'); ?>
+    <?php require_once('parts/highlight.php'); ?>
+    <?php require_once('parts/contact.php'); ?>
   </main>
 </body>
 </html>
