@@ -9,5 +9,6 @@
     <?php require_once('parts/highlight.php'); ?>
     <?php require_once('parts/contact.php'); ?>
   </main>
+  <?php require_once('elements/footer.php'); ?>
 </body>
 </html>
