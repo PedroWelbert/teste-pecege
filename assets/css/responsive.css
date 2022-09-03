@@ -1,0 +1,213 @@
+
+@media screen and (max-width: 1023px) {
+  :root {
+    --containerSize: 95%;
+  }
+  #home figure img {
+    position: unset;
+  }
+  #home .two .info {
+    flex-wrap: wrap;
+  }
+  #home .two figure {
+    margin: 0;
+  }
+  #whoUses {
+    margin-top: 35rem;
+  }
+  #contact figure img {
+    position: unset;
+  }
+  footer {
+    margin: 0;
+  }
+  #whoUses .users {
+    flex-wrap: wrap;
+  }
+  #whoUses .user {
+    width: 45%;
+  }
+  #whoUses .percentage {
+    flex-wrap: wrap;
+  }
+  #whoUses .percentage .item {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+  }
+  #highlight .info {
+    flex-wrap: wrap;
+  }
+  #highlight .row {
+    flex-wrap: wrap;
+  }
+  #highlight .row .column {
+    width: 100%;
+  }
+  #highlight .decoration {
+    width: 100%;
+    height: 90vh;
+    border-radius: 0;
+  }
+  #highlight .decoration .detail {
+    border: unset;
+    border-style: unset;
+  }
+  #contact .two .column {
+    width: 50%;
+  }
+  footer .row {
+    flex-wrap: wrap;
+  }
+  footer .row .column {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  header .row {
+    padding: 1rem 0;
+    flex-wrap: wrap;
+  }
+  header .column {
+    width: 100%;
+  }
+  #home .one {
+    height: 90vh;
+  }
+  #home figure img {
+    position: unset;
+  }
+  #home .two {
+    flex-wrap: wrap;
+  }
+  #home .two .column {
+    width: 100%;
+  }
+  #home .two .info {
+    flex-wrap: wrap;
+  }
+  #home .two figure {
+    margin: 0;
+  }
+  #whoUses {
+    margin-top: 60rem;
+  }
+  #contact figure img {
+    position: unset;
+  }
+  footer {
+    margin: 0;
+  }
+  #whoUses .users {
+    flex-wrap: wrap;
+  }
+  #whoUses .user {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  #whoUses .percentage {
+    flex-wrap: wrap;
+  }
+  #whoUses .percentage .item {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  #whoUses .percentage .info {
+    margin-bottom: 3rem;
+    width: 100%;
+  }
+  #whoUses .percentage .info h4 {
+    text-align: center;
+  }
+  #whoUses .percentage .info p {
+    text-align: center;
+  }
+  #highlight .info {
+    flex-wrap: wrap;
+  }
+  #highlight .row {
+    flex-wrap: wrap;
+  }
+  #highlight .row .column {
+    width: 100%;
+  }
+  #highlight .decoration {
+    width: 100%;
+    height: 75vh;
+    border-radius: 0;
+  }
+  #highlight .decoration .detail {
+    border: unset;
+    border-style: unset;
+  }
+  #contact .two {
+    flex-wrap: wrap;
+  }
+  #contact .two .column {
+    width: 100%;
+  }
+  footer .row {
+    flex-wrap: wrap;
+  }
+  footer .row .column {
+    width: 100%;
+  }
+  footer .copyright {
+    flex-wrap: wrap;
+  }
+  footer .copyright p {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  :root {
+    --containerSize: 90%;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  :root {
+    --containerSize: 70%;
+  }
+  #highlight .decoration .detail {
+    width: 50%;
+  }
+  #contact figure img {
+    top: -25rem;
+  }
+  #contact .two {
+    padding: 20rem 0 5rem 0;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  :root {
+    --containerSize: 60%;
+  }
+  #highlight .decoration .detail {
+    width: 50%;
+  }
+  #contact figure img {
+    top: -25rem;
+  }
+  #contact .two {
+    padding: 15rem 0 5rem 0;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  :root {
+    --containerSize: 50%;
+  }
+  #highlight .decoration .detail {
+    width: 50%;
+  }
+  #contact .two {
+    padding: 12rem 0 5rem 0;
+  }
+}
