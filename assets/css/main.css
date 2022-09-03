@@ -228,3 +228,92 @@ header {
     #whoUses .percentage .item {
       width: 30%;
     }
+/* End Who Uses */
+
+/* Begin Highlight */
+#highlight {
+  margin: 1rem 0;
+  padding: 2rem 0;
+  position: relative;
+}
+  #highlight .decoration {
+    position: absolute;
+    background-color: var(--red);
+    width: 70%;
+    height: 60vh;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    border-radius: 0 0 0 5rem;
+  }
+    #highlight .decoration .detail {
+      border: .2rem var(--backgroundColor);
+      border-style: none none dashed dashed;
+      width: 59%;
+      position: absolute;
+      height: 30vh;
+      bottom: 3rem;
+      left: 3rem;
+      border-radius: 0 0 0 5rem;
+    }
+    #highlight .row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+      z-index: 2;
+    }
+      #highlight .row .column {
+        width: 48%;
+      }
+        #highlight .column span {
+          font-size: 80%;
+          color: var(--backgroundColor);
+        }
+        #highlight .column h2 {
+          color: var(--backgroundColor);
+          font-size: 250%;
+          margin: 0;
+        }
+        #highlight .column h4 {
+          color: var(--backgroundColor);
+        }
+          #highlight .info {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+          }
+            #highlight .info .description {
+              width: 70%;
+            }
+              #highlight .info .description p {
+                color: var(--backgroundColor);
+              }
+                #highlight .description .buttons {
+                  display: flex;
+                  justify-content: flex-start;
+                  align-items: center;
+                }
+                  #highlight .buttons figure{
+                    margin: 0;
+                    padding-right: .5rem;
+                  }
+
+        #highlight .one figure {
+          margin: 0;
+          width: 100%;
+        }
+          #highlight .one figure img {
+            width: 100%;
+          }
+      
+      
+
+/* End Highlight */
+
+/* Begin Contact */
+#contact {
+  margin: 1rem 0;
+  padding: 2rem 0;
+}
+/* End Highlight */
